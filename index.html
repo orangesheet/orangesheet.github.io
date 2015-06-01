@@ -1,0 +1,323 @@
+<!doctype html> 
+<html lang="en"> 
+<head>
+    <link rel="stylesheet" href="pure-release-0.6.0/pure-min.css">
+</head>
+
+<body>
+    
+    <div id="page">
+        
+        <form id="cycles"></form>
+        <form id="fastlane"></form>
+        <form id="riders"></form>
+        <form id="riders_output"></form>
+        
+        <!-- Headers ############################################################################################ -->
+ 
+        <div class="pure-g">
+            <div class="pure-u-1-4"><p>Hour</p></div>
+            <div class="pure-u-1-4"><p id="toplabel" >Cycles</p></input></div>
+            <div class="pure-u-1-4"><p id="toplabel" >Fastlane</p></input></div>
+            <div class="pure-u-1-4"> <div id="selectdiv"> <select id="ridersOrEmpties"> <option value="empties">Empties</option> <option value="riders">Riders</option> </select> </div> </input></div>
+        </div>
+
+        <!-- Input Boxes ############################################################################################ -->
+    
+        <div class="pure-g">
+            <div class="pure-u-1-4"><p>9 - 10</p></div>
+            <div class="pure-u-1-4"><input type="number" id="cycles___01" form="cycles"></input></div>
+            <div class="pure-u-1-4"><input type="number" id="fastlane_01" form="fastlane"></input></div>
+            <div class="pure-u-1-4"><input type="number" id="riders___01" form="riders"></input></div>
+        </div>
+
+        <div class="pure-g">
+            <div class="pure-u-1-4"><p>10 - 11</p></div>
+            <div class="pure-u-1-4"><input type="number" id="cycles___02" form="cycles"></input></div>
+            <div class="pure-u-1-4"><input type="number" id="fastlane_02" form="fastlane"></input></div>
+            <div class="pure-u-1-4"><input type="number" id="riders___02" form="riders"></input></div>
+        </div>
+
+        <div class="pure-g">
+            <div class="pure-u-1-4"><p>11 - 12</p></div>
+            <div class="pure-u-1-4"><input type="number" id="cycles___03" form="cycles"></input></div>
+            <div class="pure-u-1-4"><input type="number" id="fastlane_03" form="fastlane"></input></div>
+            <div class="pure-u-1-4"><input type="number" id="riders___03" form="riders"></input></div>
+        </div>
+
+        <div class="pure-g">
+            <div class="pure-u-1-4"><p>12 - 1</p></div>
+            <div class="pure-u-1-4"><input type="number" id="cycles___04" form="cycles"></input></div>
+            <div class="pure-u-1-4"><input type="number" id="fastlane_04" form="fastlane"></input></div>
+            <div class="pure-u-1-4"><input type="number" id="riders___04" form="riders"></input></div>
+        </div>
+
+        <div class="pure-g">
+            <div class="pure-u-1-4"><p>1 - 2</p></div>
+            <div class="pure-u-1-4"><input type="number" id="cycles___05" form="cycles"></input></div>
+            <div class="pure-u-1-4"><input type="number" id="fastlane_05" form="fastlane"></input></div>
+            <div class="pure-u-1-4"><input type="number" id="riders___05" form="riders"></input></div>
+        </div>
+
+        <div class="pure-g">
+            <div class="pure-u-1-4"><p>2 - 3</p></div>
+            <div class="pure-u-1-4"><input type="number" id="cycles___06" form="cycles"></input></div>
+            <div class="pure-u-1-4"><input type="number" id="fastlane_06" form="fastlane"></input></div>
+            <div class="pure-u-1-4"><input type="number" id="riders___06" form="riders"></input></div>
+        </div>
+
+        <div class="pure-g">
+            <div class="pure-u-1-4"><p>3 - 4</p></div>
+            <div class="pure-u-1-4"><input type="number" id="cycles___07" form="cycles"></input></div>
+            <div class="pure-u-1-4"><input type="number" id="fastlane_07" form="fastlane"></input></div>
+            <div class="pure-u-1-4"><input type="number" id="riders___07" form="riders"></input></div>
+        </div>
+
+        <div class="pure-g">
+            <div class="pure-u-1-4"><p>4 - 5</p></div>
+            <div class="pure-u-1-4"><input type="number" form="cycles"></input></div>
+            <div class="pure-u-1-4"><input type="number" form="fastlane"></input></div>
+            <div class="pure-u-1-4"><input type="number" form="riders"></input></div>
+        </div>
+
+        <div class="pure-g">
+            <div class="pure-u-1-4"><p>5 - 6</p></div>
+            <div class="pure-u-1-4"><input type="number" form="cycles"></input></div>
+            <div class="pure-u-1-4"><input type="number" form="fastlane"></input></div>
+            <div class="pure-u-1-4"><input type="number" form="riders"></input></div>
+        </div>
+
+        <div class="pure-g">
+            <div class="pure-u-1-4"><p>6 - 7</p></div>
+            <div class="pure-u-1-4"><input type="number" form="cycles"></input></div>
+            <div class="pure-u-1-4"><input type="number" form="fastlane"></input></div>
+            <div class="pure-u-1-4"><input type="number" form="riders"></input></div>
+        </div>
+
+        <div class="pure-g">
+            <div class="pure-u-1-4"><p>7 - 8</p></div>
+            <div class="pure-u-1-4"><input type="number" form="cycles"></input></div>
+            <div class="pure-u-1-4"><input type="number" form="fastlane"></input></div>
+            <div class="pure-u-1-4"><input type="number" form="riders"></input></div>
+        </div>
+
+        <div class="pure-g">
+            <div class="pure-u-1-4"><p>8 - 9</p></div>
+            <div class="pure-u-1-4"><input type="number" form="cycles"></input></div>
+            <div class="pure-u-1-4"><input type="number" form="fastlane"></input></div>
+            <div class="pure-u-1-4"><input type="number" form="riders"></input></div>
+        </div>
+
+        <div class="pure-g">
+            <div class="pure-u-1-4"><p>9 - 10</p></div>
+            <div class="pure-u-1-4"><input type="number" form="cycles"></input></div>
+            <div class="pure-u-1-4"><input type="number" form="fastlane"></input></div>
+            <div class="pure-u-1-4"><input type="number" form="riders"></input></div>
+        </div>
+
+        <div class="pure-g">
+            <div class="pure-u-1-4"><p>10 - 11</p></div>
+            <div class="pure-u-1-4"><input type="number" form="cycles"></input></div>
+            <div class="pure-u-1-4"><input type="number" form="fastlane"></input></div>
+            <div class="pure-u-1-4"><input type="number" form="riders"></input></div>
+        </div>
+
+        <div class="pure-g">
+            <div class="pure-u-1-4"><p>11 - 12</p></div>
+            <div class="pure-u-1-4"><input type="number" form="cycles"></input></div>
+            <div class="pure-u-1-4"><input type="number" form="fastlane"></input></div>
+            <div class="pure-u-1-4"><input type="number" form="riders"></input></div>
+        </div>
+
+        <!-- Buttons ############################################################################################ -->
+
+        <div class="pure-g">
+            <div class="pure-u-1-2"> <div class="wrapper"> <button onclick="calculate()";location.href="#RESULTS">Calculate</button> </div> </div>
+            <div class="pure-u-1-2"> <div class="wrapper"> <button onclick="reset()">Reset</button>         </div> </div>
+        </div>
+
+    </div>
+
+    <br>
+    <br>
+    <hr>
+    <br>
+
+    <A NAME="RESULTS"></A>
+
+    <!-- Results ############################################################################################ -->
+
+    <p style="font-size:8vw">Results</p>
+
+    <div class="pure-g">
+        <div class="pure-u-1-4"><p>Hour</p></div>
+        <div class="pure-u-1-4"><p id="toplabel" >Riders</p></input></div>
+    </div>
+
+    <div class="pure-g">
+        <div class="pure-u-1-4"><p>9 - 10</p></div>
+        <div class="pure-u-1-4"><output form="riders_output"></output></div>
+    </div>
+
+    <div class="pure-g">
+        <div class="pure-u-1-4"><p>10 - 11</p></div>
+        <div class="pure-u-1-4"><output form="riders_output"></output></div>
+    </div>
+
+    <div class="pure-g">
+        <div class="pure-u-1-4"><p>11- 12</p></div>
+        <div class="pure-u-1-4"><output form="riders_output"></output></div>
+    </div>
+
+    <div class="pure-g">
+        <div class="pure-u-1-4"><p>12 - 1</p></div>
+        <div class="pure-u-1-4"><output form="riders_output"></output></div>
+    </div>
+
+    <div class="pure-g">
+        <div class="pure-u-1-4"><p>1 - 2</p></div>
+        <div class="pure-u-1-4"><output form="riders_output"></output></div>
+    </div>
+
+    <div class="pure-g">
+        <div class="pure-u-1-4"><p>2 - 3</p></div>
+        <div class="pure-u-1-4"><output form="riders_output"></output></div>
+    </div>
+
+    <div class="pure-g">
+        <div class="pure-u-1-4"><p>3 - 4</p></div>
+        <div class="pure-u-1-4"><output form="riders_output"></output></div>
+    </div>
+
+    <div class="pure-g">
+        <div class="pure-u-1-4"><p>4 - 5</p></div>
+        <div class="pure-u-1-4"><output form="riders_output"></output></div>
+    </div>
+
+    <div class="pure-g">
+        <div class="pure-u-1-4"><p>5 - 6</p></div>
+        <div class="pure-u-1-4"><output form="riders_output"></output></div>
+    </div>
+
+    <div class="pure-g">
+        <div class="pure-u-1-4"><p>6 - 7</p></div>
+        <div class="pure-u-1-4"><output form="riders_output"></output></div>
+    </div>
+
+    <div class="pure-g">
+        <div class="pure-u-1-4"><p>7 - 8</p></div>
+        <div class="pure-u-1-4"><output form="riders_output"></output></div>
+    </div>
+
+    <div class="pure-g">
+        <div class="pure-u-1-4"><p>8 - 9</p></div>
+        <div class="pure-u-1-4"><output form="riders_output"></output></div>
+    </div>
+
+    <div class="pure-g">
+        <div class="pure-u-1-4"><p>9 - 10</p></div>
+        <div class="pure-u-1-4"><output form="riders_output"></output></div>
+    </div>
+
+    <div class="pure-g">
+        <div class="pure-u-1-4"><p>10 - 11</p></div>
+        <div class="pure-u-1-4"><output form="riders_output"></output></div>
+    </div>
+
+    <div class="pure-g">
+        <div class="pure-u-1-4"><p>11 - 12</p></div>
+        <div class="pure-u-1-4"><output form="riders_output"></output></div>
+    </div>
+
+
+    <p id="out" style="font-size:6vw">Total Cycles: </p>
+    <p id="out2" style="font-size:6vw">Total Fastlane: </p>
+    <p id="out3" style="font-size:6vw">Total Riders: </p>
+
+    <!-- Scripts ############################################################################################ -->
+
+    <script language="javascript" type="text/javascript">
+        
+        function fixedParseInt(input) {
+            var num = parseInt(input);
+            if(isNaN(num))
+                num = 0;
+            return num;
+        }
+        
+        function calculate() {
+            //var num = document.getElementById("cycles___01").value;
+            
+            var seats = 28;
+            
+            var totalcycles = 0;
+            var totalfastlane = 0;
+            var totalriders = 0;
+            
+            // Get the total cycles
+            for(i = 0; i < 15; i++) {
+                var current = fixedParseInt(cycles.elements[i].value);
+                totalcycles += current;
+            }
+            
+            // Get the total fast lane
+            for(i = 0; i < 15; i++) {
+                var current = fixedParseInt(fastlane.elements[i].value);
+                totalfastlane += current;
+            }
+            
+            // Get the riders per hour
+            for(i = 0; i < 15; i++) {
+                var currentRiders = fixedParseInt(riders.elements[i].value);
+                var currentCycles = fixedParseInt(cycles.elements[i].value);
+                
+                if(document.getElementById("ridersOrEmpties").value == "empties")
+                    currentRiders = currentCycles * 28 - currentRiders;
+                
+                riders_output.elements[i].value = currentRiders;
+                
+                totalriders += currentRiders;
+            }
+            
+            document.getElementById("out").innerHTML = "Total Cycles: " + totalcycles;
+            document.getElementById("out2").innerHTML = "Total Fast Lane: " + totalfastlane;
+            document.getElementById("out3").innerHTML = "Total Riders: " + totalriders;
+        }
+        
+        function finalReset() {
+            document.getElementById("cycles").reset();
+            document.getElementById("fastlane").reset();
+            document.getElementById("riders").reset();
+            
+            for(i = 0; i < 15; i++) {
+                riders_output.elements[i].value = "";
+            }
+        }
+        
+        function reset() {
+            if(window.confirm("Clear all fields?"))
+                finalReset();
+        }
+        
+    </script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
